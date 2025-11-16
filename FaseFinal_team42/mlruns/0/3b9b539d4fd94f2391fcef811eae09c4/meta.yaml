@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/mizlop/OneDrive%20-%20SAS/Documents/SAS_git/MLOps/Fase2_team42/mlruns/0/3b9b539d4fd94f2391fcef811eae09c4/artifacts
+end_time: 1763253021097
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b9b539d4fd94f2391fcef811eae09c4
+run_name: clumsy-mare-452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763253019585
+status: 3
+tags: []
+user_id: mizlop

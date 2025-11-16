@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/mizlop/OneDrive%20-%20SAS/Documents/SAS_git/MLOps/Fase2_team42/mlruns/0/d8ad33996e57486f9d0fb3d0e4e8a0b2/artifacts
+end_time: 1763252743829
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8ad33996e57486f9d0fb3d0e4e8a0b2
+run_name: gregarious-fish-184
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763252742778
+status: 3
+tags: []
+user_id: mizlop

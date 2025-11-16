@@ -49,7 +49,7 @@ if __name__ == "__main__":
         "random_seed": 42,
         "data": {
             "train_path": "data/ml_data/insurance_train.csv",
-            "test_path": "data/ml_data/insurance_test.csv",
+            "test_path": "data/processed/insurance_drift.csv",  # Use drifted data as test set
             "target_col": "MoHoPol"
         }
     }

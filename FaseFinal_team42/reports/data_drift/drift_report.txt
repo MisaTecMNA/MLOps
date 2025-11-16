@@ -1,0 +1,25 @@
+Data Drift Report
+=================
+
+--- Clean Data Metrics ---
+{
+  "DemAvgIncome_mean": 3.758463870641738,
+  "DemAvgIncome_std": 1.1374789571912667,
+  "AvgAge_mean": 2.962607377463365,
+  "AvgAge_std": 0.7232628282392419,
+  "DemNoReligion_mean": 3.274044130032003,
+  "MoHoPol_mean": 0.0,
+  "MoHoPol_std": 0.0
+}
+--- Drifted Data Metrics ---
+{
+  "DemAvgIncome_mean": 4.510156644770086,
+  "DemAvgIncome_std": 1.3649747486295196,
+  "AvgAge_mean": 4.957465714427089,
+  "AvgAge_std": 1.2380011064967458,
+  "DemNoReligion_mean": 3.4717870978608727,
+  "MoHoPol_mean": 0.09988209533434395,
+  "MoHoPol_std": 0.29984272938653184
+}
+
+See PNG files for distribution plots.
