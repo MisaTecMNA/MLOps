@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/mizlop/OneDrive%20-%20SAS/Documents/SAS_git/MLOps/mlruns/611722022981622233/models/m-2e34860a282945fb8bf8fcbf068f6806/artifacts
+creation_timestamp: 1763239973272
+experiment_id: '611722022981622233'
+last_updated_timestamp: 1763239997162
+model_id: m-2e34860a282945fb8bf8fcbf068f6806
+model_type: null
+name: model_LogReg
+source_run_id: 44394514849946c29d4ff4e68c5fee78
+status: 2
+status_message: null

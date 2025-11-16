@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/mizlop/OneDrive%20-%20SAS/Documents/SAS_git/MLOps/mlruns/611722022981622233/models/m-2e34860a282945fb8bf8fcbf068f6806/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.6.0
+model_id: m-2e34860a282945fb8bf8fcbf068f6806
+model_size_bytes: 1725
+model_uuid: m-2e34860a282945fb8bf8fcbf068f6806
+prompts: null
+run_id: 44394514849946c29d4ff4e68c5fee78
+utc_time_created: '2025-11-15 20:52:53.512836'
