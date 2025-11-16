@@ -3,7 +3,7 @@ pandas
 scipy
 matplotlib
 seaborn
-scikit-learn
+scikit-learn==1.4.0
 dvc
 cookiecutter-data-science
 pytest

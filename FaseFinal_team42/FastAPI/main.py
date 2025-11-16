@@ -3,6 +3,7 @@ import pandas as pd
 import joblib
 from fastapi import FastAPI, HTTPException
 import os
+from pathlib import Path
 
 app = FastAPI(
     title="Team42 ML Model API",
@@ -10,8 +11,10 @@ app = FastAPI(
     version="1.0.0"
 )
 
-MODEL_PATH = "FaseFinal_team42/models/final_model_GradBoost.joblib"
-if not os.path.exists(MODEL_PATH):
+BASE_DIR = Path(__file__).resolve().parent.parent  # /app
+MODEL_PATH = BASE_DIR / "models" / "final_model_GradBoost.joblib"
+
+if not MODEL_PATH.exists():
     raise FileNotFoundError(f"Model artifact not found at: {MODEL_PATH}")
 
 model = joblib.load(MODEL_PATH)
