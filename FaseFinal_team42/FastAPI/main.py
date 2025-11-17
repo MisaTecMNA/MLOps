@@ -41,16 +41,25 @@ def root():
 @app.post("/predict")
 def predict(input_data: ModelInput):
     try:
-        # Pydantic -> dict -> DataFrame con las columnas en el orden definido arriba
+        # Convertir entrada a DataFrame
         df = pd.DataFrame([input_data.dict()])
 
-        # Predicción
-        pred = model.predict(df)[0]
+        # Probabilidad de la clase positiva 
         proba = model.predict_proba(df)[0][1]
 
+        # Predicción "general" del modelo 
+        prediction_default = int(proba >= 0.5)
+
+        # Predicción ajustada 
+        threshold = 0.01
+        prediction_adjusted = int(proba >= threshold)
+
         return {
-            "prediction": int(pred),
-            "probability": float(proba)
+            "prediction_default": prediction_default,
+            "prediction_adjusted": prediction_adjusted,
+            "probability": float(proba),
+            "threshold_used": threshold
         }
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
